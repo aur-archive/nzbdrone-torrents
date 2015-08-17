@@ -1,0 +1,27 @@
+pkgbase = nzbdrone-torrents
+	pkgdesc = PVR for newsgroup users
+	pkgver = 2.0.0.2221
+	pkgrel = 1
+	url = http://www.nzbdrone.com
+	install = nzbdrone.install
+	changelog = 
+	arch = any
+	license = GPL3
+	depends = mono
+	depends = libmediainfo
+	depends = sqlite
+	optdepends = sabnzbd: an NZB downloader
+	optdepends = nzbget: an NZB downloader
+	optdepends = transmission: a torrent downloader
+	optdepends = deluge: a torrent downloader
+	provides = nzbdrone
+	conflicts = nzbdrone
+	source = http://update.nzbdrone.com/v2/torrents/mono/NzbDrone.torrents.2.0.0.2221.mono.tar.gz
+	source = nzbdrone.sh
+	source = nzbdrone.service
+	md5sums = 4b9e41c7c03e9f0b132fc3ce687aa64a
+	md5sums = 3b61cab484404951eb5d2c0cf760da07
+	md5sums = 42cdce41e518760ea9769bacd840a113
+
+pkgname = nzbdrone-torrents
+
